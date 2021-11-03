@@ -1,3 +1,5 @@
+(()=> {
+
 const criarTarefa = (evento)=> {
   evento.preventDefault()
   const lista = document.querySelector('[data-list]')
@@ -30,3 +32,5 @@ const concluirTarefa = (evento)=> {
   const tarefaCompleta = botaoConclui.parentElement
   tarefaCompleta.classList.toggle("done")
 }
+
+})()
