@@ -7,10 +7,10 @@ const BotaoDeleta = ()=> {
 
 const deletarTarefa = (evento)=> {
   const botaoDeleta = evento.target
-  const tarefaDeletada = botaoDeleta.parentElement
-  tarefaDeletada.classList.remove()
+  const tarefaCompleta = botaoDeleta.parentElement
+  tarefaCompleta.remove()
 
   return botaoDeleta
-})
+}
 
 export default BotaoDeleta
